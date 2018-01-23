@@ -1,0 +1,17 @@
+baseURL = "http://localhost:8888/test-cloud/public/"
+languageCode = "en-us"
+title = "Testing with TsugiCloud"
+theme = "ananke"
+
+[[menu.main]]
+    name = "TsugiCloud Production"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "https://www.tsugicloud.org/"
+[[menu.main]]
+    name = "Testing Dashboard"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/tsugi"
+
